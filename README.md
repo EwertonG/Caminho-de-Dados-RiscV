@@ -10,13 +10,8 @@ Ana Clara Francisca Barbosa - 22.2.8096
 
 ## Descrição
 
-Este projeto consiste na implementação de uma unidade de controle RISC-V em Verilog capaz de decodificar e simular a execução de instruções como:
-
-- `lw` (load word)  
-- `sw` (store word)  
-- `add`, `xor`, `sll` (operações aritméticas)  
-- `addi` (add imediato)  
-- `bne` (branch not equal)
+Implementação em Verilog de um caminho de dados simplificado baseado no conjunto de instruções RISC-V.  
+O projeto simula instruções como `lw`, `sw`, `add`, `addi`, `xor`, `sll` e `bne`, com controle e testes em nível de registradores.
 
 ## Como rodar
 
